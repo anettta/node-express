@@ -1,0 +1,45 @@
+Node.js is an environment to write javascript outside Browser
+Built on Chrome's V8 JS Engine
+created in 2009
+Big community
+full-stack
+
+Globals - NO WINDOW!!!
+ __dirname = path to current directory
+__filename = file name 
+
+require - function to use modules(CommonJS)
+module - info about current module (file)
+process - info about env where the program is being executed 
+
+to run enter <node 'filename'> in terminal 
+
+// modules - encapsulated code(only share minimum)
+// CommonJS, every file in node is module(by default)
+
+// if you invoke a function in file and then in another file you just add 'require and file name" it will run without exports
+
+// const amount = 12
+
+// if (amount < 10){
+//     console.log('small number');
+// } else {
+//  console.log('large number');
+// }
+
+
+
+
+// modules - encapsulated code(only share minimum)
+// every file in node is module
+
+// const names = require('./names')
+
+
+// const sayHi = require('./utils')
+
+// const data = require('./names')
+// console.log(data);
+// sayHi(names.john)
+
+
